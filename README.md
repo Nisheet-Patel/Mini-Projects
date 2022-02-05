@@ -24,7 +24,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+...
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -34,24 +34,24 @@
 <h3 id="index"> Project Index </h3>
 <ol>
   <li>
-    <a href="">C</a>
+    <a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/C">C</a>
     <ul>
-      <li><a href="">XO Game</a></li>
-      <li><a href="">Student Management System</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/C/XO_Game.c">XO Game</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/C/Student%20Management%20System">Student Management System</a></li>
     </ul>
   </li>
   <li>
-    <a href="">C++</a>
+    <a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/C%2B%2B">C++</a>
     <ul>
-      <li><a href="">Number Guessing Game</a></li>
-      <li><a href="">Rock Paper Scissors Game</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/C%2B%2B/Number%20Guessing%20Game.cpp">Number Guessing Game</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/C%2B%2B/Rock%20Paper%20Scissors%20Game.cpp">Rock Paper Scissors Game</a></li>
     </ul>
   </li>
   <li>
-    <a href="">Python</a>
+    <a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python">Python</a>
     <ul>
-      <li><a href="">Password Generator</a></li>
-      <li><a href="">XO Game</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/Password%20Generator.py">Password Generator</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/XO%20Game.py">XO Game</a></li>
     </ul>
   </li>
 </ol>
@@ -86,7 +86,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/NisheetNakrani/Mini-Projects?color=dark-green
 [contributors-url]: https://github.com/NisheetNakrani/Mini-Projects/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/NisheetNakrani/Mini-Projects
-[forks-url]: https://github.com/github_username/NisheetNakrani/Mini-Projects/members
-[stars-shield]: https://img.shields.io:/github/stars/NisheetNakrani/Mini-Projects
+[forks-shield]: https://img.shields.io/github/forks/NisheetNakrani/Mini-Projects?color=dark-green
+[forks-url]: https://github.com/NisheetNakrani/Mini-Projects/network/members
+[stars-shield]: https://img.shields.io/github/stars/NisheetNakrani/Mini-Projects?color=dark-green
 [stars-url]: https://github.com/NisheetNakrani/Mini-Projects

@@ -52,6 +52,7 @@
     <ul>
       <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/Password%20Generator.py">Password Generator</a></li>
       <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/XO%20Game.py">XO Game</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/calculator_gui.py">Calculator GUI (tkinter)</a></li>
     </ul>
   </li>
 </ol>

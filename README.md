@@ -2,11 +2,9 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/NisheetNakrani/Mini-Projects">
-    <img src="" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">Mini Projects</h3>
+  
+  ![Logo2](https://user-images.githubusercontent.com/62321150/153153963-a4abfb2e-4db5-47bf-9b88-b9612b210d3c.png)
+  
   <p align="center">
     <a href="#download">Download</a>
     ·

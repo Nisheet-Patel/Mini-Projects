@@ -53,7 +53,7 @@ class Bubble_Sort:
 		except: pass
 
 	def File_edit(self):
-		file = open("Recored.txt",'r+')
+		file = open("log.txt",'r+')
 		k = 0
 		
 		rfile = file.readlines()
@@ -75,7 +75,7 @@ class Bubble_Sort:
 				print("BS-SUM",sum(NList))
 				self.cu_pos = 0
 				self.g = 1
-				file = open("Recored.txt",'w+')
+				file = open("log.txt",'w+')
 				file.truncate()
 				self.nextprev()
 				self.Step_recored.clear()
@@ -180,8 +180,7 @@ class Bubble_Sort:
 		except: pass
 		self.Step_recored.clear()
 		self.Clear_colors(len(self.array_list))
-		file = open("Recored.txt",'w+')
-		file.truncate()
+		file = open("log.txt",'w')
 		file.close()
 
 

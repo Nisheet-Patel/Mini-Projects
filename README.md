@@ -51,6 +51,10 @@
       <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/Password%20Generator.py">Password Generator</a></li>
       <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/XO%20Game.py">XO Game</a></li>
       <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/Python/calculator_gui.py">Calculator GUI (tkinter)</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python/Bubble%20Sort%20visualization">Bubble Sort visualization (tkinter)</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python/Rock%20Paper%20Scissor%20pygame">Rock Paper Scissor (pygame)</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python/Remember%20Me%20Game">
+      Remember Me Game (tkinter)</a></li>
     </ul>
   </li>
 </ol>

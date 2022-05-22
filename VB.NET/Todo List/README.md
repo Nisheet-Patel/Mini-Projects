@@ -11,7 +11,7 @@
     ·
     <a href="https://github.com/NisheetNakrani/Mini-Projects/issues">Report Bug</a>
     ·
-    <a href="https://bit.ly/3wKD8tG">Download .exe</a>
+    <a href="https://mega.nz/file/pQBiUayJ?utm_source=mega#orBbAzhOaJUIKL8f1pNIRfWN33Pf6-sy5WuzyiDF5FY">Download .exe</a>
   </p>
 </div>
 

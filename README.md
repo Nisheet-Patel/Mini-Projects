@@ -64,7 +64,7 @@
   <li>
     <a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/VB.NET">VB.NET</a>
     <ul>
-      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/VB%3ENET/Todo%20List">Todo List</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/VB.NET/Todo%20List">Todo List</a></li>
     </ul>
   </li>
 </ol>

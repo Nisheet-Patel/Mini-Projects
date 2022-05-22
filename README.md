@@ -55,6 +55,16 @@
       <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python/Rock%20Paper%20Scissor%20pygame">Rock Paper Scissor (pygame)</a></li>
       <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python/Remember%20Me%20Game">
       Remember Me Game (tkinter)</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python/Auto%20Play%20Piano%20Tiles">
+      Auto Play Piano Tiles (PyAutoGUI)</a></li>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/Python/File%20Grouper">
+      File Grouper (OS)</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="https://github.com/NisheetNakrani/Mini-Projects/tree/master/VB.NET">VB.NET</a>
+    <ul>
+      <li><a href="https://github.com/NisheetNakrani/Mini-Projects/blob/master/VB%3ENET/Todo%20List">Todo List</a></li>
     </ul>
   </li>
 </ol>

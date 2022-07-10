@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todo list app in vue.js / Vue3">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Vue3, Vue.js, Vue, Mini Projects, Projects, Beginner, Nisheet Patel">
+    <meta name="author" content="Nisheet Patel">
+    <title>Todo List</title>
+
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link type="image/png" sizes="16x16" rel="icon" href="favicon/todo-list-16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="favicon/todo-list-32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="favicon/todo-list-96.png">
+</head>
+
+<body>
+    <div id="app">
+
+        <div class="title-container">
+            <img src="https://img.icons8.com/ios-glyphs/60/A6B1E1/todo-list--v1.png" />
+            <h1> Todo App</h1>
+        </div>
+
+        <p style="margin-bottom: 5px;">New ToDo</p>
+        <input v-model="inputtext" type="text" @keyup.enter="newToDo">
+        <button id="Badd" @click="newToDo">+</button>
+
+
+
+        <div class="container">
+            <span>Todo List</span>
+            <div>
+                <button :class="{selected: Cselect['all']}" @click="fselect('all')">All</button>
+                <button :class="{selected: Cselect['comp']}" @click="fselect('comp')">Completed</button>
+                <button :class="{selected: Cselect['uncomp']}" @click="fselect('uncomp')">Uncompleted</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div>
+
+            <li v-for="(todo, id) in filteredTodos" :key="todo.id" @click="toggleStrike(id)">
+                <span :class="{strikethrough: todo.checked}" >{{ todo.title }}</span>
+                <button class="Bremove" @click="removeToDo(id)">X</button>
+            </li>
+
+        </div>
+
+
+        <p align="center" style="margin-top:30px">Made with <i class="fa fa-heart pulse"
+                style="color:rgb(255, 42, 42)"></i>
+            by <a href="https://github.com/Nisheet-Patel" style="color: white;">Nisheet Patel</a></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

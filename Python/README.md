@@ -1,5 +1,5 @@
 # Contribute Your Mini <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height=30> Projects.
-######  [Main Page]()  •  [ how to contribute? ]() • [Explore Mini Projects in diff. lang.]()
+######  [Main Page](https://github.com/Nisheet-Patel/Mini-Projects)  •  [ how to contribute? ]() • [Explore Mini Projects in diff. lang.]()
 
 | No. | Title | Description | Developer  |
 |:--:| ------------- |-------------|:-----:|

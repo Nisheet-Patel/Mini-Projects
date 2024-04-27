@@ -1,4 +1,4 @@
-# http://www.crazygames.com/game/white-tile-2-don-t-tap-it
+# https://www.donttap.com/
 # https://kizi.com/games/magic-piano-tiles
 
 import pyautogui as pag

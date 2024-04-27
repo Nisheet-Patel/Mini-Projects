@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bgcolor: #c4c1e0;
+    --white: #fafafa;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--bgcolor);
+    width: 80vw;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    flex: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    margin-top: 1rem;
+    width: 15rem;
+}
+
+.tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tab {
+    background-color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border-color: #7c73e6;
+    border-style: solid;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.tab.active {
+    box-shadow: 4px 4px #7c73e6;
+}
+
+/* Projects */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.project {
+    width: 20rem;
+    background-color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border-color: #7c73e6;
+    border-style: solid;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #7c73e6;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.project:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 #7c73e6;
+}
+
+
+.project .title {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: large;
+}
+
+.project .description {
+    font-size: small;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.project .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .links {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.project .developer {
+    font-weight: 300;
+    font-size: small;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 90vw;
+    }
+}

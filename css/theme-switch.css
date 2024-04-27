@@ -1,0 +1,53 @@
+header .theme {
+    --bg-color: #fafafa;
+    --main-color: #aca5f3;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-color);
+    border-radius: 100%;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+}
+
+header .input {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0;
+}
+
+header .icon {
+    position: absolute;
+    top: calc(50% -13px);
+    left: calc(50% -13px);
+    width: 26px;
+    height: 26px;
+}
+
+header .icon.icon-moon {
+    fill: var(--main-color);
+}
+
+header .icon.icon-sun {
+    stroke: var(--main-color);
+    display: none;
+}
+
+header .input:checked~.icon.icon-sun {
+    display: block;
+}
+
+header .input:checked~.icon.icon-moon {
+    display: none;
+}
+
+header .theme:active {
+    box-shadow: 0px 0px var(--main-color);
+    transform: translate(3px, 3px);
+}
